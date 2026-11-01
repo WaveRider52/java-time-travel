@@ -1,0 +1,13 @@
+# Build-Ausgaben
+**/build/
+
+# Heruntergeladene Bibliotheken (werden nicht eingecheckt)
+**/lib/*.jar
+
+# macOS
+.DS_Store
+
+# Geheimnisse (zur Sicherheit)
+.env
+*.pem
+*.key

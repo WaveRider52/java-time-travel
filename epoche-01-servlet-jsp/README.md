@@ -24,4 +24,4 @@ A `web.xml` without annotations, a WAR archive, a build with Ant. The source cod
 
 ## Note on the runtime
 
-According to the project's announcement, support for Tomcat 9 ends on 31 March 2027. The environment is meant for local use and does not run publicly on the internet.
+Support for the Tomcat 9.0.x branch ends on 31 March 2027, according to the [Apache Tomcat announcement](https://tomcat.apache.org/tomcat-9.0.x-eos.html). The project plans a follow-up branch 9.1.x with releases until 31 December 2030. The environment is meant for local use and does not run publicly on the internet.

@@ -68,5 +68,6 @@ Stop the container with Ctrl+C. Because of `--rm`, Docker removes it.
 ## Notes
 
 - The container reports Servlet API 4.0. The server is newer than the code, which is why this is a reconstruction.
-- According to the project's announcement, support for Tomcat 9 ends on 31 March 2027. Use it locally only.
+- Support for the Tomcat 9.0.x branch ends on 31 March 2027, according to the [Apache Tomcat announcement](https://tomcat.apache.org/tomcat-9.0.x-eos.html). The project plans a follow-up branch 9.1.x with releases until 31 December 2030. This environment is meant for local use.
+- The `Dockerfile` uses the tag `tomcat:9.0-jdk17-temurin`, which follows the 9.0.x branch. When that branch ends, check Docker Hub for a 9.1 tag.
 - On a successful build, Docker hides the output of Ant. With `docker build --progress=plain -t zeitreise-test .` it stays visible.

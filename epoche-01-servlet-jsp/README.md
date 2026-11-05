@@ -17,6 +17,15 @@ A `web.xml` without annotations, a WAR archive, a build with Ant. The source cod
 6. Filters and listeners
 7. JSP 1.2 and its XML syntax
 
+## Learning Questions
+
+My learning questions, answers, and progress notes are available in German and English:
+
+- [Deutsch – Lernfragen](lernfragen/README.md)
+- [English – Learning Questions](lernfragen/en/README.md)
+
+Unit 1 covers the web application directory structure described in Servlet Specification 2.3, sections SRV.9.5 and SRV.9.5.1. The theoretical questions are answered; the practical implementation is still pending.
+
 ## Sources and inspirations
 
 - Java Servlet Specification 2.3 (JSR 53): the factual basis for statements about the API.

@@ -21,6 +21,12 @@ java-time-travel/
 ├── notizen/                    daily notes (raw material for posts, in German)
 └── epoche-01-servlet-jsp/
     ├── README.md               goals, planned units, sources
+    ├── lernfragen/             learning questions and notes (German and English)
+    │   ├── README.md           German overview
+    │   ├── einheit-01.md       unit 1 (German)
+    │   └── en/
+    │       ├── README.md       English overview
+    │       └── unit-01.md      unit 1 (English)
     └── umgebung/               development and runtime environment (Ant, Docker, Tomcat 9)
 ```
 
